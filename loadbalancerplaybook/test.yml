@@ -1,0 +1,8 @@
+--- 
+  - hosts: loadbalancer
+    roles: 
+            - loadbalancerplaybook1
+  - hosts: webservers
+    roles: 
+            - webserverplaybook
+
